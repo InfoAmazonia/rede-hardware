@@ -2541,6 +2541,7 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD712.pdf</descr
 <wire x1="187.96" y1="-66.04" x2="243.84" y2="-66.04" width="0.1524" layer="94"/>
 <wire x1="243.84" y1="-66.04" x2="243.84" y2="-30.48" width="0.1524" layer="94"/>
 <wire x1="243.84" y1="-30.48" x2="187.96" y2="-30.48" width="0.1524" layer="94"/>
+<text x="203.2" y="167.64" size="3.81" layer="94" ratio="10">GERADOR +BAT</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="25.4" y="2.54"/>
