@@ -1530,6 +1530,22 @@ TS-003</description>
 <rectangle x1="-2.8575" y1="-7.145" x2="-2.2575" y2="-4.445" layer="51"/>
 <rectangle x1="-0.3175" y1="-7.145" x2="0.2825" y2="-4.445" layer="51"/>
 </package>
+<package name="SMC_B">
+<description>&lt;b&gt;Chip Capacitor &lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198&lt;br&gt;
+Source: www.farnell.com/datasheets/247.pdf</description>
+<wire x1="-1.6" y1="1.35" x2="1.6" y2="1.35" width="0.1016" layer="51"/>
+<wire x1="1.6" y1="1.35" x2="1.6" y2="-1.35" width="0.1016" layer="51"/>
+<wire x1="1.6" y1="-1.35" x2="-1.6" y2="-1.35" width="0.1016" layer="51"/>
+<wire x1="-1.6" y1="-1.35" x2="-1.6" y2="1.35" width="0.1016" layer="51"/>
+<smd name="+" x="-1.5" y="0" dx="1.6" dy="2.4" layer="1"/>
+<smd name="-" x="1.5" y="0" dx="1.6" dy="2.4" layer="1" rot="R180"/>
+<text x="-1.905" y="1.905" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.75" y1="-1.1" x2="-1.55" y2="1.1" layer="51"/>
+<rectangle x1="1.55" y1="-1.1" x2="1.75" y2="1.1" layer="51" rot="R180"/>
+<rectangle x1="-1.6" y1="-1.35" x2="-0.95" y2="1.35" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ARDUINO-MEGA-2560">
@@ -2312,6 +2328,15 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD712.pdf</descr
 <technology name=""/>
 </technologies>
 </device>
+<device name="SMC_B" package="SMC_B">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="ADAFRUIT_FONA" prefix="IC">
@@ -2473,7 +2498,7 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD712.pdf</descr
 <part name="P-7" library="InfoAmazonia" deviceset="-5V" device=""/>
 <part name="GND11" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="J2" library="InfoAmazonia" deviceset="BNC" device="PTH"/>
-<part name="IC3" library="InfoAmazonia" deviceset="AMPOP_2" device="R"/>
+<part name="IC3" library="InfoAmazonia" deviceset="AMPOP_2" device="R" value="TL032C"/>
 <part name="GND8" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="C11" library="InfoAmazonia" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="C13" library="InfoAmazonia" deviceset="C-EU" device="C0603" value="10uF"/>
@@ -2484,8 +2509,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD712.pdf</descr
 <part name="GND9" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="IC4" library="InfoAmazonia" deviceset="LM2662" device=""/>
 <part name="GND12" library="InfoAmazonia" deviceset="GND" device=""/>
-<part name="C16" library="InfoAmazonia" deviceset="CPOL-EU" device="D"/>
-<part name="C17" library="InfoAmazonia" deviceset="CPOL-EU" device="D"/>
 <part name="GND13" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="IC5" library="InfoAmazonia" deviceset="ADAFRUIT_FONA" device=""/>
 <part name="+3V2" library="InfoAmazonia" deviceset="+3V3" device=""/>
@@ -2516,6 +2539,8 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD712.pdf</descr
 <part name="GND20" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="GND21" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="GND22" library="InfoAmazonia" deviceset="GND" device=""/>
+<part name="C27" library="InfoAmazonia" deviceset="CPOL-EU" device="SMC_B" value="47uF"/>
+<part name="C28" library="InfoAmazonia" deviceset="CPOL-EU" device="SMC_B" value="47uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -2528,7 +2553,7 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD712.pdf</descr
 <wire x1="116.84" y1="43.18" x2="241.3" y2="43.18" width="0.1524" layer="94"/>
 <wire x1="241.3" y1="43.18" x2="241.3" y2="96.52" width="0.1524" layer="94"/>
 <wire x1="241.3" y1="96.52" x2="116.84" y2="96.52" width="0.1524" layer="94"/>
-<text x="162.56" y="91.44" size="3.81" layer="94" ratio="10">SENSOR OPR</text>
+<text x="162.56" y="91.44" size="3.81" layer="94" ratio="10">SENSOR ORP</text>
 <text x="165.1" y="33.02" size="3.81" layer="94" ratio="10">SENSOR PH</text>
 <text x="129.54" y="-35.56" size="3.81" layer="94" ratio="10">PRESÃO / TEMP</text>
 <text x="195.58" y="-35.56" size="3.81" layer="94" ratio="10">UMIDADE / TEMP</text>
@@ -2619,14 +2644,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD712.pdf</descr
 <attribute name="VALUE" x="139.7" y="144.78" size="1.778" layer="95"/>
 </instance>
 <instance part="GND12" gate="1" x="162.56" y="144.78"/>
-<instance part="C16" gate="G$1" x="127" y="154.94" smashed="yes">
-<attribute name="NAME" x="120.523" y="155.4226" size="1.778" layer="95"/>
-<attribute name="VALUE" x="128.143" y="150.3426" size="1.778" layer="96"/>
-</instance>
-<instance part="C17" gate="G$1" x="170.18" y="149.86" smashed="yes" rot="R180">
-<attribute name="NAME" x="169.037" y="149.3774" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="169.037" y="154.4574" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="GND13" gate="1" x="170.18" y="144.78"/>
 <instance part="IC5" gate="G$1" x="25.4" y="109.22" rot="MR0"/>
 <instance part="+3V2" gate="G$1" x="121.92" y="-45.72" smashed="yes">
@@ -2670,6 +2687,8 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD712.pdf</descr
 <instance part="GND20" gate="1" x="198.12" y="142.24"/>
 <instance part="GND21" gate="1" x="246.38" y="142.24"/>
 <instance part="GND22" gate="1" x="254" y="142.24"/>
+<instance part="C27" gate="G$1" x="127" y="154.94"/>
+<instance part="C28" gate="G$1" x="170.18" y="149.86" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -2780,10 +2799,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD712.pdf</descr
 <wire x1="162.56" y1="149.86" x2="162.56" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C17" gate="G$1" pin="+"/>
-<pinref part="GND13" gate="1" pin="GND"/>
-</segment>
-<segment>
 <wire x1="144.78" y1="-55.88" x2="142.24" y2="-55.88" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="-55.88" x2="142.24" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="C20" gate="G$1" pin="2"/>
@@ -2841,6 +2856,10 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD712.pdf</descr
 <pinref part="C26" gate="G$1" pin="-"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 <wire x1="254" y1="147.32" x2="254" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND13" gate="1" pin="GND"/>
+<pinref part="C28" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -3060,11 +3079,11 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD712.pdf</descr
 <pinref part="IC4" gate="G$1" pin="OUT"/>
 <wire x1="160.02" y1="152.4" x2="162.56" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="152.4" x2="162.56" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="-"/>
-<wire x1="162.56" y1="154.94" x2="170.18" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="P-4" gate="1" pin="-5V"/>
 <wire x1="177.8" y1="152.4" x2="177.8" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="154.94" x2="170.18" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="C28" gate="G$1" pin="-"/>
+<wire x1="170.18" y1="154.94" x2="162.56" y2="154.94" width="0.1524" layer="91"/>
 <junction x="170.18" y="154.94"/>
 </segment>
 </net>
@@ -3163,8 +3182,8 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD712.pdf</descr
 <pinref part="IC4" gate="G$1" pin="CAP-"/>
 <wire x1="137.16" y1="152.4" x2="132.08" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="152.4" x2="132.08" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="-"/>
 <wire x1="132.08" y1="149.86" x2="127" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="C27" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -3172,8 +3191,8 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD712.pdf</descr
 <pinref part="IC4" gate="G$1" pin="CAP+"/>
 <wire x1="137.16" y1="154.94" x2="132.08" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="154.94" x2="132.08" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="+"/>
 <wire x1="132.08" y1="157.48" x2="127" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="C27" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="N$7" class="0">
