@@ -1240,29 +1240,29 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 </package>
 <package name="BNC">
 <description>Fits Mouser Part#5227161</description>
-<wire x1="-7.493" y1="-2.9718" x2="7.493" y2="-2.9718" width="0.127" layer="21"/>
-<wire x1="7.493" y1="-2.9718" x2="7.493" y2="10.8712" width="0.127" layer="21"/>
-<wire x1="7.493" y1="10.8712" x2="-7.493" y2="10.8712" width="0.127" layer="21"/>
-<wire x1="-7.493" y1="10.8712" x2="-7.493" y2="-2.9718" width="0.127" layer="21"/>
-<wire x1="-7.112" y1="10.8712" x2="-7.112" y2="19.8882" width="0.127" layer="51"/>
-<wire x1="-7.112" y1="19.8882" x2="-6.604" y2="19.8882" width="0.127" layer="51"/>
-<wire x1="-6.604" y1="19.8882" x2="6.604" y2="19.8882" width="0.127" layer="51"/>
-<wire x1="6.604" y1="19.8882" x2="7.0866" y2="19.8882" width="0.127" layer="51"/>
-<wire x1="7.0866" y1="19.8882" x2="7.112" y2="19.8882" width="0.127" layer="51"/>
-<wire x1="7.112" y1="19.8882" x2="7.112" y2="10.8712" width="0.127" layer="51"/>
-<wire x1="6.604" y1="19.8882" x2="6.604" y2="33.7312" width="0.127" layer="51"/>
-<wire x1="6.604" y1="33.7312" x2="-6.604" y2="33.7312" width="0.127" layer="51"/>
-<wire x1="-6.604" y1="33.7312" x2="-6.604" y2="19.8882" width="0.127" layer="51"/>
-<wire x1="-7.0866" y1="17.7546" x2="7.0866" y2="18.6182" width="0.127" layer="51"/>
-<wire x1="-7.0866" y1="16.4846" x2="7.0866" y2="17.3482" width="0.127" layer="51"/>
-<wire x1="-7.0866" y1="15.2146" x2="7.0866" y2="16.0782" width="0.127" layer="51"/>
-<wire x1="-7.0866" y1="13.9446" x2="7.0866" y2="14.8082" width="0.127" layer="51"/>
-<wire x1="-7.0866" y1="12.6746" x2="7.0866" y2="13.5382" width="0.127" layer="51"/>
-<wire x1="-7.0866" y1="11.4046" x2="7.0866" y2="12.2682" width="0.127" layer="51"/>
-<wire x1="-7.0866" y1="19.0246" x2="7.0866" y2="19.8882" width="0.127" layer="51"/>
-<circle x="0" y="30.48" radius="0.8179" width="0.127" layer="51"/>
-<pad name="GND" x="-2.54" y="0" drill="0.8" shape="long" rot="R90"/>
-<pad name="S" x="0" y="0" drill="0.8" shape="long" rot="R90"/>
+<wire x1="-7.493" y1="-1.15" x2="7.493" y2="-1.15" width="0.127" layer="21"/>
+<wire x1="7.493" y1="-1.15" x2="7.493" y2="12.95" width="0.127" layer="21"/>
+<wire x1="7.493" y1="12.95" x2="-7.493" y2="12.95" width="0.127" layer="21"/>
+<wire x1="-7.493" y1="12.95" x2="-7.493" y2="-1.15" width="0.127" layer="21"/>
+<wire x1="-7.112" y1="12.95" x2="-7.112" y2="21.55" width="0.127" layer="51"/>
+<wire x1="-7.112" y1="21.55" x2="-6.604" y2="21.55" width="0.127" layer="51"/>
+<wire x1="-6.604" y1="21.55" x2="6.604" y2="21.55" width="0.127" layer="51"/>
+<wire x1="6.604" y1="21.55" x2="7.0866" y2="21.55" width="0.127" layer="51"/>
+<wire x1="7.0866" y1="21.55" x2="7.112" y2="21.55" width="0.127" layer="51"/>
+<wire x1="7.112" y1="21.55" x2="7.112" y2="12.95" width="0.127" layer="51"/>
+<wire x1="6.604" y1="21.55" x2="6.604" y2="33.65" width="0.127" layer="51"/>
+<wire x1="6.604" y1="33.65" x2="-6.604" y2="33.65" width="0.127" layer="51"/>
+<wire x1="-6.604" y1="33.65" x2="-6.604" y2="21.55" width="0.127" layer="51"/>
+<wire x1="-7.0866" y1="19.6596" x2="7.0866" y2="20.5232" width="0.127" layer="51"/>
+<wire x1="-7.0866" y1="18.3896" x2="7.0866" y2="19.2532" width="0.127" layer="51"/>
+<wire x1="-7.0866" y1="17.1196" x2="7.0866" y2="17.9832" width="0.127" layer="51"/>
+<wire x1="-7.0866" y1="15.8496" x2="7.0866" y2="16.7132" width="0.127" layer="51"/>
+<wire x1="-7.0866" y1="14.5796" x2="7.0866" y2="15.4432" width="0.127" layer="51"/>
+<wire x1="-7.0866" y1="13.3096" x2="7.0866" y2="14.1732" width="0.127" layer="51"/>
+<wire x1="-7.0866" y1="20.9296" x2="7.0866" y2="21.55" width="0.127" layer="51"/>
+<circle x="0" y="31.115" radius="0.8179" width="0.127" layer="51"/>
+<pad name="GND" x="-2.54" y="0" drill="1.1" shape="long" rot="R90"/>
+<pad name="S" x="0" y="0" drill="1.1" shape="long" rot="R90"/>
 <pad name="3" x="-5.08" y="5.08" drill="2.2"/>
 <pad name="4" x="5.08" y="5.08" drill="2.2"/>
 <text x="-6.35" y="8.89" size="0.4064" layer="25">&gt;NAME</text>
@@ -2149,10 +2149,10 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="1" y1="-1.75" x2="1" y2="-2.25" width="0.2032" layer="21"/>
 <wire x1="-1" y1="-1.75" x2="-1" y2="-2.25" width="0.2032" layer="21"/>
 <wire x1="4.95" y1="2.25" x2="4.95" y2="-2.25" width="0.2032" layer="21"/>
-<pad name="1" x="-3" y="-0.55" drill="0.7" diameter="1.6"/>
-<pad name="2" x="-1" y="-0.55" drill="0.7" diameter="1.6"/>
-<pad name="3" x="1" y="-0.55" drill="0.7" diameter="1.6"/>
-<pad name="4" x="3" y="-0.55" drill="0.7" diameter="1.6"/>
+<pad name="1" x="-3" y="-0.55" drill="1.1" diameter="1.6764"/>
+<pad name="2" x="-1" y="-0.55" drill="1.1" diameter="1.6764"/>
+<pad name="3" x="1" y="-0.55" drill="1.1" diameter="1.6764"/>
+<pad name="4" x="3" y="-0.55" drill="1.1" diameter="1.6764"/>
 <text x="-3" y="3" size="0.4064" layer="25">&gt;Name</text>
 <text x="1" y="3" size="0.4064" layer="27">&gt;Value</text>
 <text x="-1.4" y="0.75" size="1.27" layer="51">+</text>
@@ -3859,7 +3859,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="C30" library="InfoAmazonia" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="C31" library="InfoAmazonia" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="GND34" library="InfoAmazonia" deviceset="GND" device=""/>
-<part name="C32" library="InfoAmazonia" deviceset="C-EU" device="C0603" value="1uF"/>
+<part name="C32" library="InfoAmazonia" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="GND35" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="GND36" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="+VBAT2" library="InfoAmazonia" deviceset="+VBAT" device=""/>
@@ -4408,24 +4408,51 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <attribute name="NAME" x="66.802" y="9.1186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="66.294" y="4.318" size="1.778" layer="96"/>
 </instance>
-<instance part="JP1" gate="A" x="121.92" y="27.94" rot="R180"/>
-<instance part="JP2" gate="A" x="226.06" y="27.94" rot="R180"/>
+<instance part="JP1" gate="A" x="121.92" y="27.94" smashed="yes" rot="R180">
+<attribute name="NAME" x="128.27" y="22.225" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="128.27" y="35.56" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="JP2" gate="A" x="226.06" y="27.94" smashed="yes" rot="R180">
+<attribute name="NAME" x="232.41" y="22.225" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="232.41" y="35.56" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="GND38" gate="1" x="238.76" y="20.32" smashed="yes">
 <attribute name="VALUE" x="236.22" y="17.78" size="1.778" layer="96"/>
 </instance>
-<instance part="JP7" gate="A" x="121.92" y="88.9" rot="R180"/>
-<instance part="JP8" gate="A" x="228.6" y="88.9" rot="R180"/>
+<instance part="JP7" gate="A" x="121.92" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="128.27" y="83.185" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="128.27" y="96.52" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="JP8" gate="A" x="228.6" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="234.95" y="83.185" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="234.95" y="96.52" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="GND39" gate="1" x="241.3" y="81.28" smashed="yes">
 <attribute name="VALUE" x="238.76" y="78.74" size="1.778" layer="96"/>
 </instance>
-<instance part="JP3" gate="A" x="38.1" y="-38.1" rot="R180"/>
-<instance part="JP4" gate="A" x="99.06" y="-38.1" rot="R180"/>
+<instance part="JP3" gate="A" x="38.1" y="-38.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="44.45" y="-43.815" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="44.45" y="-30.48" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="JP4" gate="A" x="99.06" y="-38.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="105.41" y="-43.815" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="105.41" y="-30.48" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="GND40" gate="1" x="111.76" y="-45.72" smashed="yes">
 <attribute name="VALUE" x="109.22" y="-48.26" size="1.778" layer="96"/>
 </instance>
-<instance part="JP5" gate="A" x="73.66" y="114.3" rot="R180"/>
-<instance part="JP6" gate="A" x="43.18" y="114.3" rot="R180"/>
-<instance part="JP9" gate="A" x="12.7" y="114.3" rot="R180"/>
+<instance part="JP5" gate="A" x="73.66" y="114.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="80.01" y="108.585" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="80.01" y="121.92" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="JP6" gate="A" x="43.18" y="114.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="49.53" y="108.585" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="49.53" y="121.92" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="JP9" gate="A" x="12.7" y="114.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="19.05" y="108.585" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="19.05" y="121.92" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="GND15" gate="1" x="7.62" y="106.68" smashed="yes">
 <attribute name="VALUE" x="5.08" y="104.14" size="1.778" layer="96"/>
 </instance>
@@ -4435,49 +4462,70 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="GND41" gate="1" x="68.58" y="106.68" smashed="yes">
 <attribute name="VALUE" x="66.04" y="104.14" size="1.778" layer="96"/>
 </instance>
-<instance part="JP10" gate="A" x="0" y="139.7" rot="R180"/>
+<instance part="JP10" gate="A" x="0" y="139.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="6.35" y="133.985" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="6.35" y="147.32" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="P+17" gate="1" x="12.7" y="147.32" smashed="yes">
 <attribute name="VALUE" x="10.16" y="147.32" size="1.778" layer="96"/>
 </instance>
 <instance part="P-13" gate="1" x="17.78" y="147.32" smashed="yes" rot="R180">
 <attribute name="VALUE" x="15.24" y="147.32" size="1.778" layer="96"/>
 </instance>
-<instance part="JP11" gate="A" x="30.48" y="139.7" rot="R180"/>
+<instance part="JP11" gate="A" x="30.48" y="139.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="36.83" y="133.985" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="36.83" y="147.32" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="P+18" gate="1" x="43.18" y="147.32" smashed="yes">
 <attribute name="VALUE" x="40.64" y="147.32" size="1.778" layer="96"/>
 </instance>
 <instance part="P-14" gate="1" x="48.26" y="147.32" smashed="yes" rot="R180">
 <attribute name="VALUE" x="45.72" y="147.32" size="1.778" layer="96"/>
 </instance>
-<instance part="JP12" gate="A" x="60.96" y="139.7" rot="R180"/>
+<instance part="JP12" gate="A" x="60.96" y="139.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="67.31" y="133.985" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="67.31" y="147.32" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="P+19" gate="1" x="73.66" y="147.32" smashed="yes">
 <attribute name="VALUE" x="71.12" y="147.32" size="1.778" layer="96"/>
 </instance>
 <instance part="P-15" gate="1" x="78.74" y="147.32" smashed="yes" rot="R180">
 <attribute name="VALUE" x="76.2" y="147.32" size="1.778" layer="96"/>
 </instance>
-<instance part="JP14" gate="G$1" x="157.48" y="121.92" rot="MR180"/>
+<instance part="JP14" gate="G$1" x="157.48" y="121.92" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="152.4" y="129.54" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="152.4" y="113.538" size="1.778" layer="95" rot="MR180"/>
+</instance>
 <instance part="GND43" gate="1" x="177.8" y="114.3" smashed="yes">
 <attribute name="VALUE" x="175.26" y="111.76" size="1.778" layer="96"/>
 </instance>
 <instance part="P+21" gate="1" x="177.8" y="121.92" smashed="yes">
 <attribute name="VALUE" x="175.26" y="121.92" size="1.778" layer="96"/>
 </instance>
-<instance part="JP15" gate="G$1" x="124.46" y="121.92" rot="MR180"/>
+<instance part="JP15" gate="G$1" x="124.46" y="121.92" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="119.38" y="129.54" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="119.38" y="113.538" size="1.778" layer="95" rot="MR180"/>
+</instance>
 <instance part="GND44" gate="1" x="144.78" y="114.3" smashed="yes">
 <attribute name="VALUE" x="142.24" y="111.76" size="1.778" layer="96"/>
 </instance>
 <instance part="P+22" gate="1" x="144.78" y="121.92" smashed="yes">
 <attribute name="VALUE" x="142.24" y="121.92" size="1.778" layer="96"/>
 </instance>
-<instance part="JP16" gate="G$1" x="190.5" y="121.92" rot="MR180"/>
+<instance part="JP16" gate="G$1" x="190.5" y="121.92" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="185.42" y="129.54" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="185.42" y="113.538" size="1.778" layer="95" rot="MR180"/>
+</instance>
 <instance part="GND45" gate="1" x="210.82" y="114.3" smashed="yes">
 <attribute name="VALUE" x="208.28" y="111.76" size="1.778" layer="96"/>
 </instance>
 <instance part="P+23" gate="1" x="210.82" y="121.92" smashed="yes">
 <attribute name="VALUE" x="208.28" y="121.92" size="1.778" layer="96"/>
 </instance>
-<instance part="JP17" gate="G$1" x="223.52" y="121.92" rot="MR180"/>
+<instance part="JP17" gate="G$1" x="223.52" y="121.92" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="218.44" y="129.54" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="218.44" y="113.538" size="1.778" layer="95" rot="MR180"/>
+</instance>
 <instance part="GND46" gate="1" x="243.84" y="114.3" smashed="yes">
 <attribute name="VALUE" x="241.3" y="111.76" size="1.778" layer="96"/>
 </instance>
@@ -4490,27 +4538,69 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="P+25" gate="1" x="40.64" y="-101.6" smashed="yes">
 <attribute name="VALUE" x="38.1" y="-99.06" size="1.778" layer="96"/>
 </instance>
-<instance part="P+4" gate="G$1" x="134.62" y="96.52"/>
-<instance part="P+26" gate="G$1" x="154.94" y="88.9"/>
-<instance part="P+27" gate="G$1" x="193.04" y="58.42"/>
-<instance part="P-16" gate="G$1" x="139.7" y="96.52" rot="R180"/>
-<instance part="P-17" gate="G$1" x="154.94" y="68.58"/>
-<instance part="P-18" gate="G$1" x="218.44" y="58.42" rot="R180"/>
-<instance part="P-19" gate="G$1" x="177.8" y="50.8"/>
-<instance part="P+6" gate="G$1" x="50.8" y="-30.48"/>
-<instance part="P+7" gate="G$1" x="88.9" y="-50.8"/>
-<instance part="P+15" gate="G$1" x="43.18" y="-66.04"/>
-<instance part="P-9" gate="G$1" x="208.28" y="2.54"/>
-<instance part="P-11" gate="G$1" x="190.5" y="-5.08"/>
-<instance part="P-12" gate="G$1" x="167.64" y="2.54"/>
-<instance part="P-20" gate="G$1" x="139.7" y="35.56" rot="R180"/>
-<instance part="P+11" gate="G$1" x="167.64" y="22.86"/>
-<instance part="P+12" gate="G$1" x="134.62" y="35.56"/>
-<instance part="P+16" gate="G$1" x="121.92" y="-10.16"/>
-<instance part="P+28" gate="G$1" x="195.58" y="-10.16"/>
-<instance part="P+29" gate="G$1" x="208.28" y="22.86"/>
-<instance part="P-2" gate="G$1" x="137.16" y="-10.16" rot="R180"/>
-<instance part="P-3" gate="G$1" x="223.52" y="-10.16" rot="R180"/>
+<instance part="P+4" gate="G$1" x="134.62" y="93.98" smashed="yes">
+<attribute name="VALUE" x="138.43" y="96.012" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+26" gate="G$1" x="154.94" y="88.9" smashed="yes">
+<attribute name="VALUE" x="158.75" y="90.678" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+27" gate="G$1" x="193.04" y="58.42" smashed="yes">
+<attribute name="VALUE" x="196.85" y="60.198" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P-16" gate="G$1" x="142.24" y="93.98" smashed="yes" rot="R180">
+<attribute name="VALUE" x="147.574" y="96.012" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P-17" gate="G$1" x="154.94" y="68.58" smashed="yes">
+<attribute name="VALUE" x="158.75" y="68.326" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P-18" gate="G$1" x="218.44" y="58.42" smashed="yes" rot="R180">
+<attribute name="VALUE" x="222.25" y="60.198" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P-19" gate="G$1" x="177.8" y="50.8" smashed="yes">
+<attribute name="VALUE" x="175.26" y="48.26" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+6" gate="G$1" x="50.8" y="-33.02" smashed="yes">
+<attribute name="VALUE" x="53.34" y="-30.48" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+7" gate="G$1" x="88.9" y="-50.8" smashed="yes">
+<attribute name="VALUE" x="86.36" y="-55.88" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+15" gate="G$1" x="43.18" y="-66.04" smashed="yes">
+<attribute name="VALUE" x="40.64" y="-71.12" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P-9" gate="G$1" x="208.28" y="2.54" smashed="yes">
+<attribute name="VALUE" x="204.724" y="0.254" size="1.778" layer="96"/>
+</instance>
+<instance part="P-11" gate="G$1" x="190.5" y="-5.08" smashed="yes">
+<attribute name="VALUE" x="187.198" y="-7.112" size="1.778" layer="96"/>
+</instance>
+<instance part="P-12" gate="G$1" x="167.64" y="2.54" smashed="yes">
+<attribute name="VALUE" x="164.084" y="0.254" size="1.778" layer="96"/>
+</instance>
+<instance part="P-20" gate="G$1" x="142.24" y="33.02" smashed="yes" rot="R180">
+<attribute name="VALUE" x="144.78" y="34.798" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+11" gate="G$1" x="167.64" y="22.86" smashed="yes">
+<attribute name="VALUE" x="163.576" y="22.86" size="1.778" layer="96"/>
+</instance>
+<instance part="P+12" gate="G$1" x="134.62" y="33.02" smashed="yes">
+<attribute name="VALUE" x="130.302" y="33.02" size="1.778" layer="96"/>
+</instance>
+<instance part="P+16" gate="G$1" x="121.92" y="-10.16" smashed="yes">
+<attribute name="VALUE" x="116.84" y="-10.16" size="1.778" layer="96"/>
+</instance>
+<instance part="P+28" gate="G$1" x="195.58" y="-10.16" smashed="yes">
+<attribute name="VALUE" x="191.516" y="-10.16" size="1.778" layer="96"/>
+</instance>
+<instance part="P+29" gate="G$1" x="208.28" y="22.86" smashed="yes">
+<attribute name="VALUE" x="204.216" y="22.86" size="1.778" layer="96"/>
+</instance>
+<instance part="P-2" gate="G$1" x="137.16" y="-10.16" smashed="yes" rot="R180">
+<attribute name="VALUE" x="142.24" y="-7.62" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P-3" gate="G$1" x="223.52" y="-10.16" smashed="yes" rot="R180">
+<attribute name="VALUE" x="220.218" y="-10.16" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5726,7 +5816,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <pinref part="JP7" gate="A" pin="3"/>
 <wire x1="124.46" y1="91.44" x2="134.62" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="91.44" x2="134.62" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="G$1" pin="+VORP"/>
 </segment>
 <segment>
@@ -5744,8 +5833,8 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <net name="-VORP" class="0">
 <segment>
 <pinref part="JP7" gate="A" pin="2"/>
-<wire x1="124.46" y1="88.9" x2="139.7" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="88.9" x2="139.7" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="88.9" x2="142.24" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="88.9" x2="142.24" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="P-16" gate="G$1" pin="-VORP"/>
 </segment>
 <segment>
@@ -5769,7 +5858,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <pinref part="JP3" gate="A" pin="3"/>
 <wire x1="40.64" y1="-35.56" x2="50.8" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="-35.56" x2="50.8" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="P+6" gate="G$1" pin="+VEC"/>
 </segment>
 <segment>
@@ -5803,7 +5891,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <pinref part="JP1" gate="A" pin="3"/>
 <wire x1="124.46" y1="30.48" x2="134.62" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="30.48" x2="134.62" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="P+12" gate="G$1" pin="+VPH"/>
 </segment>
 <segment>
@@ -5823,8 +5910,8 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
 <pinref part="P-20" gate="G$1" pin="-VPH"/>
-<wire x1="124.46" y1="27.94" x2="139.7" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="27.94" x2="139.7" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="27.94" x2="142.24" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="27.94" x2="142.24" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C15" gate="G$1" pin="1"/>
