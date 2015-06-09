@@ -3812,8 +3812,8 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="R2" library="InfoAmazonia" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="R1" library="InfoAmazonia" deviceset="R-EU_" device="R0603" value="43k"/>
 <part name="GND9" library="InfoAmazonia" deviceset="GND" device=""/>
-<part name="C5" library="InfoAmazonia" deviceset="CPOL-EU" device="UD6,3-5,8" value="220uF"/>
-<part name="C4" library="InfoAmazonia" deviceset="CPOL-EU" device="UD6,3-5,8" value="220uF"/>
+<part name="C5" library="InfoAmazonia" deviceset="CPOL-EU" device="UD6,3-5,8" value="47uF"/>
+<part name="C4" library="InfoAmazonia" deviceset="CPOL-EU" device="UD6,3-5,8" value="47uF"/>
 <part name="C6" library="InfoAmazonia" deviceset="CPOL-EU" device="UD6,3-5,8" value="220uF"/>
 <part name="C7" library="InfoAmazonia" deviceset="CPOL-EU" device="UD6,3-5,8" value="220uF"/>
 <part name="C8" library="InfoAmazonia" deviceset="CPOL-EU" device="UD6,3-5,8" value="220uF"/>
