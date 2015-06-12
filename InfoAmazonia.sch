@@ -5597,13 +5597,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="86.36" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="TEMP_SENSOR" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="A6"/>
-<wire x1="-2.54" y1="55.88" x2="-25.4" y2="55.88" width="0.1524" layer="91"/>
-<label x="-25.4" y="55.88" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="A15" class="0">
 <segment>
 <pinref part="JP14" gate="G$1" pin="2"/>
