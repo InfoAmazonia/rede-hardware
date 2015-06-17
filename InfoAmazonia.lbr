@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -4428,6 +4428,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="-5.08" y1="0.508" x2="-5.08" y2="-0.508" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="-0.508" x2="-5.08" y2="-1.5748" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="0.508" x2="-5.08" y2="-0.508" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-5.08" y1="-1.6002" x2="5.08" y2="-1.6002" width="0.0508" layer="21"/>
 <smd name="1" x="-4.445" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
 <smd name="16" x="-4.445" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
 <smd name="2" x="-3.175" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
@@ -4810,16 +4811,12 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="1" y1="-1.75" x2="1" y2="-2.25" width="0.2032" layer="21"/>
 <wire x1="-1" y1="-1.75" x2="-1" y2="-2.25" width="0.2032" layer="21"/>
 <wire x1="4.95" y1="2.25" x2="4.95" y2="-2.25" width="0.2032" layer="21"/>
-<pad name="1" x="-3" y="-0.55" drill="1.1" diameter="1.6764"/>
-<pad name="2" x="-1" y="-0.55" drill="1.1" diameter="1.6764"/>
-<pad name="3" x="1" y="-0.55" drill="1.1" diameter="1.6764"/>
-<pad name="4" x="3" y="-0.55" drill="1.1" diameter="1.6764"/>
-<text x="-3" y="3" size="0.4064" layer="25">&gt;Name</text>
-<text x="1" y="3" size="0.4064" layer="27">&gt;Value</text>
-<text x="-1.4" y="0.75" size="1.27" layer="51">+</text>
-<text x="0.6" y="0.75" size="1.27" layer="51">-</text>
-<text x="2.7" y="0.95" size="0.8" layer="51">Y</text>
-<text x="-3.3" y="0.95" size="0.8" layer="51">B</text>
+<pad name="1" x="-3" y="-0.55" drill="1.1" diameter="1.778"/>
+<pad name="2" x="-1" y="-0.55" drill="1.1" diameter="1.778"/>
+<pad name="3" x="1" y="-0.55" drill="1.1" diameter="1.778"/>
+<pad name="4" x="3" y="-0.55" drill="1.1" diameter="1.778"/>
+<text x="-3" y="3" size="1.27" layer="25">&gt;Name</text>
+<text x="1" y="3" size="1.27" layer="27">&gt;Value</text>
 </package>
 <package name="1X04_SMD_RA_FEMALE">
 <wire x1="-5.205" y1="4.25" x2="-5.205" y2="-4.25" width="0.1778" layer="21"/>
@@ -4872,12 +4869,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="12.7" y1="-6.35" x2="12.7" y2="8.255" width="0.254" layer="21"/>
 <wire x1="12.7" y1="8.255" x2="-12.7" y2="8.255" width="0.254" layer="21"/>
 <wire x1="-12.7" y1="8.255" x2="-12.7" y2="-8.255" width="0.254" layer="21"/>
-<attribute name="VALUE" x="-2.54" y="-5.715" size="1.27" layer="27" font="vector" ratio="15"/>
-<attribute name="VALUE" x="-6.35" y="-2.54" size="1.27" layer="27" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="8.89" y="-2.54" size="1.27" layer="27" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="1.905" y="5.715" size="1.27" layer="27" font="vector" ratio="15"/>
-<attribute name="VALUE" x="8.255" y="3.81" size="1.27" layer="27" rot="R270"/>
-<attribute name="VALUE" x="-8.255" y="-3.81" size="1.27" layer="27" rot="R90"/>
 <wire x1="-12.7" y1="-3.175" x2="-12.7" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="-12.7" y1="-1.905" x2="-12.065" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="-12.065" y1="-1.27" x2="-10.795" y2="-1.27" width="0.1524" layer="21"/>
@@ -4939,6 +4930,49 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <vertex x="12.7" y="-8.255"/>
 <vertex x="10.16" y="-8.255"/>
 </polygon>
+</package>
+<package name="TSSOP16">
+<description>&lt;b&gt;Thin Shrink Small Outline Plastic 16
+&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="-2.8321" y1="-2.1558" x2="2.8321" y2="-2.1558" width="0.1524" layer="21"/>
+<wire x1="2.8321" y1="2.1558" x2="2.8321" y2="-2.1558" width="0.1524" layer="21"/>
+<wire x1="2.8321" y1="2.1558" x2="-2.8321" y2="2.1558" width="0.1524" layer="21"/>
+<wire x1="-2.8321" y1="-2.1558" x2="-2.8321" y2="2.1558" width="0.1524" layer="21"/>
+<circle x="-1.9431" y="-1.2192" radius="0.4572" width="0.1524" layer="21"/>
+<smd name="1" x="-2.2675" y="-2.9178" dx="0.3048" dy="1.143" layer="1"/>
+<smd name="2" x="-1.6175" y="-2.9178" dx="0.3048" dy="1.143" layer="1"/>
+<smd name="3" x="-0.9675" y="-2.9178" dx="0.3048" dy="1.143" layer="1"/>
+<smd name="4" x="-0.3175" y="-2.9178" dx="0.3048" dy="1.143" layer="1"/>
+<smd name="5" x="0.3325" y="-2.9178" dx="0.3048" dy="1.143" layer="1"/>
+<smd name="6" x="0.9825" y="-2.9178" dx="0.3048" dy="1.143" layer="1"/>
+<smd name="7" x="1.6325" y="-2.9178" dx="0.3048" dy="1.143" layer="1"/>
+<smd name="10" x="1.6325" y="2.9178" dx="0.3048" dy="1.143" layer="1"/>
+<smd name="11" x="0.9825" y="2.9178" dx="0.3048" dy="1.143" layer="1"/>
+<smd name="12" x="0.3325" y="2.9178" dx="0.3048" dy="1.143" layer="1"/>
+<smd name="13" x="-0.3175" y="2.9178" dx="0.3048" dy="1.143" layer="1"/>
+<smd name="14" x="-0.9675" y="2.9178" dx="0.3048" dy="1.143" layer="1"/>
+<smd name="15" x="-1.6175" y="2.9178" dx="0.3048" dy="1.143" layer="1"/>
+<smd name="16" x="-2.2675" y="2.9178" dx="0.3048" dy="1.143" layer="1"/>
+<text x="-3.2131" y="-2.0828" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.2037" y="-2.0828" size="1.016" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.3691" y1="-2.994" x2="-2.1659" y2="-2.1558" layer="51"/>
+<rectangle x1="-1.7191" y1="-2.994" x2="-1.5159" y2="-2.1558" layer="51"/>
+<rectangle x1="-1.0691" y1="-2.994" x2="-0.8659" y2="-2.1558" layer="51"/>
+<rectangle x1="-0.4191" y1="-2.994" x2="-0.2159" y2="-2.1558" layer="51"/>
+<rectangle x1="0.2309" y1="-2.994" x2="0.4341" y2="-2.1558" layer="51"/>
+<rectangle x1="0.8809" y1="-2.994" x2="1.0841" y2="-2.1558" layer="51"/>
+<rectangle x1="1.5309" y1="-2.994" x2="1.7341" y2="-2.1558" layer="51"/>
+<rectangle x1="1.5309" y1="2.1558" x2="1.7341" y2="2.994" layer="51"/>
+<rectangle x1="0.8809" y1="2.1558" x2="1.0841" y2="2.994" layer="51"/>
+<rectangle x1="0.2309" y1="2.1558" x2="0.4341" y2="2.994" layer="51"/>
+<rectangle x1="-0.4191" y1="2.1558" x2="-0.2159" y2="2.994" layer="51"/>
+<rectangle x1="-1.0691" y1="2.1558" x2="-0.8659" y2="2.994" layer="51"/>
+<rectangle x1="-1.7191" y1="2.1558" x2="-1.5159" y2="2.994" layer="51"/>
+<rectangle x1="-2.3691" y1="2.1558" x2="-2.1659" y2="2.994" layer="51"/>
+<rectangle x1="2.1809" y1="-2.994" x2="2.3841" y2="-2.1558" layer="51"/>
+<smd name="8" x="2.2825" y="-2.9178" dx="0.3048" dy="1.143" layer="1"/>
+<smd name="9" x="2.2825" y="2.9178" dx="0.3048" dy="1.143" layer="1"/>
+<rectangle x1="2.1809" y1="2.1558" x2="2.3841" y2="2.994" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -6006,6 +6040,30 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pin name="-5V" x="-10.16" y="0" length="short" direction="pwr"/>
 <pin name="+5V" x="-10.16" y="2.54" length="short" direction="pwr"/>
 <pin name="OUT" x="10.16" y="-2.54" length="short" direction="out" rot="R180"/>
+</symbol>
+<symbol name="4051">
+<wire x1="-7.62" y1="-17.78" x2="7.62" y2="-17.78" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-17.78" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="17.78" x2="-7.62" y2="-17.78" width="0.4064" layer="94"/>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="Y4" x="-10.16" y="5.08" length="short"/>
+<pin name="Y6" x="-10.16" y="0" length="short"/>
+<pin name="Z" x="10.16" y="15.24" length="short" rot="R180"/>
+<pin name="Y7" x="-10.16" y="-2.54" length="short"/>
+<pin name="Y5" x="-10.16" y="2.54" length="short"/>
+<pin name="/E" x="-10.16" y="-7.62" length="short" direction="in"/>
+<pin name="C" x="-10.16" y="-15.24" length="short" direction="in"/>
+<pin name="B" x="-10.16" y="-12.7" length="short" direction="in"/>
+<pin name="A" x="-10.16" y="-10.16" length="short" direction="in"/>
+<pin name="Y3" x="-10.16" y="7.62" length="short"/>
+<pin name="Y0" x="-10.16" y="15.24" length="short"/>
+<pin name="Y1" x="-10.16" y="12.7" length="short"/>
+<pin name="Y2" x="-10.16" y="10.16" length="short"/>
+<pin name="VCC" x="10.16" y="-10.16" length="short" rot="R180"/>
+<pin name="VEE" x="10.16" y="-12.7" length="short" rot="R180"/>
+<pin name="GND" x="10.16" y="-15.24" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -8538,6 +8596,83 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <connect gate="G$1" pin="OUT" pad="3"/>
 <connect gate="G$1" pin="PR+" pad="4"/>
 <connect gate="G$1" pin="PR-" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="4051" prefix="IC">
+<description>8-channel &lt;b&gt;ANALOG MULTIPLEXER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="4051" x="20.32" y="0"/>
+</gates>
+<devices>
+<device name="N" package="DIL16">
+<connects>
+<connect gate="A" pin="/E" pad="6"/>
+<connect gate="A" pin="A" pad="11"/>
+<connect gate="A" pin="B" pad="10"/>
+<connect gate="A" pin="C" pad="9"/>
+<connect gate="A" pin="GND" pad="8"/>
+<connect gate="A" pin="VCC" pad="16"/>
+<connect gate="A" pin="VEE" pad="7"/>
+<connect gate="A" pin="Y0" pad="13"/>
+<connect gate="A" pin="Y1" pad="14"/>
+<connect gate="A" pin="Y2" pad="15"/>
+<connect gate="A" pin="Y3" pad="12"/>
+<connect gate="A" pin="Y4" pad="1"/>
+<connect gate="A" pin="Y5" pad="5"/>
+<connect gate="A" pin="Y6" pad="2"/>
+<connect gate="A" pin="Y7" pad="4"/>
+<connect gate="A" pin="Z" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="D" package="SO16">
+<connects>
+<connect gate="A" pin="/E" pad="6"/>
+<connect gate="A" pin="A" pad="11"/>
+<connect gate="A" pin="B" pad="10"/>
+<connect gate="A" pin="C" pad="9"/>
+<connect gate="A" pin="GND" pad="8"/>
+<connect gate="A" pin="VCC" pad="16"/>
+<connect gate="A" pin="VEE" pad="7"/>
+<connect gate="A" pin="Y0" pad="13"/>
+<connect gate="A" pin="Y1" pad="14"/>
+<connect gate="A" pin="Y2" pad="15"/>
+<connect gate="A" pin="Y3" pad="12"/>
+<connect gate="A" pin="Y4" pad="1"/>
+<connect gate="A" pin="Y5" pad="5"/>
+<connect gate="A" pin="Y6" pad="2"/>
+<connect gate="A" pin="Y7" pad="4"/>
+<connect gate="A" pin="Z" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PW" package="TSSOP16">
+<connects>
+<connect gate="A" pin="/E" pad="6"/>
+<connect gate="A" pin="A" pad="11"/>
+<connect gate="A" pin="B" pad="10"/>
+<connect gate="A" pin="C" pad="9"/>
+<connect gate="A" pin="GND" pad="8"/>
+<connect gate="A" pin="VCC" pad="16"/>
+<connect gate="A" pin="VEE" pad="7"/>
+<connect gate="A" pin="Y0" pad="13"/>
+<connect gate="A" pin="Y1" pad="14"/>
+<connect gate="A" pin="Y2" pad="15"/>
+<connect gate="A" pin="Y3" pad="12"/>
+<connect gate="A" pin="Y4" pad="1"/>
+<connect gate="A" pin="Y5" pad="5"/>
+<connect gate="A" pin="Y6" pad="2"/>
+<connect gate="A" pin="Y7" pad="4"/>
+<connect gate="A" pin="Z" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
