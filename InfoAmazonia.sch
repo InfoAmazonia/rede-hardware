@@ -3992,7 +3992,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="GND5" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="IC2" library="InfoAmazonia" deviceset="ADAFRUIT_FONA" device="" value="ADAFRUIT FONA"/>
 <part name="+3V32" library="InfoAmazonia" deviceset="+3V3" device=""/>
-<part name="C10" library="InfoAmazonia" deviceset="C-EU" device="C0603" value="10uF"/>
 <part name="C13" library="InfoAmazonia" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="C16" library="InfoAmazonia" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="GND13" library="InfoAmazonia" deviceset="GND" device=""/>
@@ -4335,23 +4334,19 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="IC2" gate="G$1" x="-10.16" y="-63.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-15.24" y="-45.974" size="1.778" layer="95" rot="MR180"/>
 </instance>
-<instance part="+3V32" gate="G$1" x="121.92" y="-106.68" smashed="yes">
-<attribute name="VALUE" x="124.46" y="-104.14" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="C10" gate="G$1" x="121.92" y="-114.3" smashed="yes">
-<attribute name="NAME" x="123.444" y="-113.919" size="1.778" layer="95"/>
-<attribute name="VALUE" x="123.444" y="-118.999" size="1.778" layer="96"/>
+<instance part="+3V32" gate="G$1" x="127" y="-106.68" smashed="yes">
+<attribute name="VALUE" x="129.54" y="-104.14" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C13" gate="G$1" x="127" y="-114.3" smashed="yes">
-<attribute name="NAME" x="128.524" y="-113.919" size="1.778" layer="95"/>
-<attribute name="VALUE" x="128.524" y="-118.999" size="1.778" layer="96"/>
+<attribute name="NAME" x="126.619" y="-115.316" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="133.604" y="-121.539" size="1.778" layer="96"/>
 </instance>
 <instance part="C16" gate="G$1" x="132.08" y="-114.3" smashed="yes">
-<attribute name="NAME" x="133.604" y="-113.919" size="1.778" layer="95"/>
+<attribute name="NAME" x="131.699" y="-115.316" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="133.604" y="-118.999" size="1.778" layer="96"/>
 </instance>
-<instance part="GND13" gate="1" x="121.92" y="-121.92" smashed="yes">
-<attribute name="VALUE" x="119.38" y="-124.46" size="1.778" layer="96"/>
+<instance part="GND13" gate="1" x="127" y="-121.92" smashed="yes">
+<attribute name="VALUE" x="124.46" y="-124.46" size="1.778" layer="96"/>
 </instance>
 <instance part="U2" gate="G$1" x="152.4" y="-111.76" smashed="yes">
 <attribute name="NAME" x="142.24" y="-103.632" size="1.778" layer="95"/>
@@ -4850,13 +4845,11 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="C16" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="-119.38" x2="132.08" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="GND"/>
-<junction x="121.92" y="-119.38"/>
+<junction x="127" y="-119.38"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<pinref part="C10" gate="G$1" pin="2"/>
 <pinref part="C13" gate="G$1" pin="2"/>
 <junction x="127" y="-119.38"/>
-<wire x1="127" y1="-119.38" x2="121.92" y2="-119.38" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="-119.38" x2="132.08" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="127" y1="-119.38" x2="132.08" y2="-119.38" width="0.1524" layer="91"/>
 <junction x="132.08" y="-119.38"/>
 </segment>
 <segment>
@@ -5191,12 +5184,8 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="139.7" y1="-111.76" x2="139.7" y2="-109.22" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-109.22" x2="127" y2="-109.22" width="0.1524" layer="91"/>
 <pinref part="+3V32" gate="G$1" pin="+3V3"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="127" y1="-109.22" x2="121.92" y2="-109.22" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="-111.76" x2="121.92" y2="-109.22" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="127" y1="-111.76" x2="127" y2="-109.22" width="0.1524" layer="91"/>
-<junction x="121.92" y="-109.22"/>
 <junction x="127" y="-109.22"/>
 <junction x="139.7" y="-109.22"/>
 </segment>
@@ -6117,6 +6106,20 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="IC11" gate="A" pin="C"/>
 <wire x1="58.42" y1="-17.78" x2="63.5" y2="-17.78" width="0.1524" layer="91"/>
 <label x="60.96" y="-17.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="JP17" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="-71.12" x2="99.06" y2="-71.12" width="0.1524" layer="91"/>
+<label x="88.9" y="-71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="JP17" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="-68.58" x2="99.06" y2="-68.58" width="0.1524" layer="91"/>
+<label x="88.9" y="-68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
