@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -640,88 +640,88 @@
 <wire x1="20.32" y1="1.905" x2="20.955" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="22.225" y1="1.27" x2="20.955" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="35.56" y1="3.175" x2="35.56" y2="1.905" width="0.2032" layer="21"/>
-<pad name="A9" x="64.77" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="A10" x="67.31" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="A11" x="69.85" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="A12" x="72.39" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="A13" x="74.93" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="A14" x="77.47" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="A15" x="80.01" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="A8" x="62.23" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="15" x="59.69" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="16" x="62.23" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="17" x="64.77" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="18" x="67.31" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="19" x="69.85" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="20" x="72.39" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="21" x="74.93" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="14" x="57.15" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="A1" x="41.91" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="A2" x="44.45" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="A3" x="46.99" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="A4" x="49.53" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="A5" x="52.07" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="A6" x="54.61" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="A7" x="57.15" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="A0" x="39.37" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="6" x="36.83" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="5" x="39.37" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="4" x="41.91" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="3" x="44.45" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="2" x="46.99" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="1" x="49.53" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="0" x="52.07" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="7" x="34.29" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="GND@4" x="14.986" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="13" x="17.526" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="12" x="20.066" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="11" x="22.606" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="10" x="25.146" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="9" x="27.686" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="8" x="30.226" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="AREF" x="12.446" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="37" x="85.09" y="30.48" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="36" x="82.55" y="30.48" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="35" x="85.09" y="33.02" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="34" x="82.55" y="33.02" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="33" x="85.09" y="35.56" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="32" x="82.55" y="35.56" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="31" x="85.09" y="38.1" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="30" x="82.55" y="38.1" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="29" x="85.09" y="40.64" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="28" x="82.55" y="40.64" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="27" x="85.09" y="43.18" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="26" x="82.55" y="43.18" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="25" x="85.09" y="45.72" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="24" x="82.55" y="45.72" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="23" x="85.09" y="48.26" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="22" x="82.55" y="48.26" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="53" x="85.09" y="10.16" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="52" x="82.55" y="10.16" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="51" x="85.09" y="12.7" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="50" x="82.55" y="12.7" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="49" x="85.09" y="15.24" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="48" x="82.55" y="15.24" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="47" x="85.09" y="17.78" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="46" x="82.55" y="17.78" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="45" x="85.09" y="20.32" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="44" x="82.55" y="20.32" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="43" x="85.09" y="22.86" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="42" x="82.55" y="22.86" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="41" x="85.09" y="25.4" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="40" x="82.55" y="25.4" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="39" x="85.09" y="27.94" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="38" x="82.55" y="27.94" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="GND@2" x="82.55" y="7.62" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="GND@3" x="85.09" y="7.62" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="5V@1" x="82.55" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="5V@2" x="85.09" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="RESET" x="21.59" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="3.3V" x="24.13" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="5V@0" x="26.67" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="GND@0" x="29.21" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="GND@1" x="31.75" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="VIN" x="34.29" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="A9" x="64.77" y="2.54" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="A10" x="67.31" y="2.54" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="A11" x="69.85" y="2.54" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="A12" x="72.39" y="2.54" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="A13" x="74.93" y="2.54" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="A14" x="77.47" y="2.54" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="A15" x="80.01" y="2.54" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="A8" x="62.23" y="2.54" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="15" x="59.69" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="16" x="62.23" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="17" x="64.77" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="18" x="67.31" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="19" x="69.85" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="20" x="72.39" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="21" x="74.93" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="14" x="57.15" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="A1" x="41.91" y="2.54" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="A2" x="44.45" y="2.54" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="A3" x="46.99" y="2.54" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="A4" x="49.53" y="2.54" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="A5" x="52.07" y="2.54" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="A6" x="54.61" y="2.54" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="A7" x="57.15" y="2.54" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="A0" x="39.37" y="2.54" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="6" x="36.83" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="5" x="39.37" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="4" x="41.91" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="3" x="44.45" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="2" x="46.99" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="1" x="49.53" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="0" x="52.07" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="7" x="34.29" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="GND@4" x="14.986" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="13" x="17.526" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="12" x="20.066" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="11" x="22.606" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="10" x="25.146" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="9" x="27.686" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="8" x="30.226" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="AREF" x="12.446" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="37" x="85.09" y="30.48" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="36" x="82.55" y="30.48" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="35" x="85.09" y="33.02" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="34" x="82.55" y="33.02" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="33" x="85.09" y="35.56" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="32" x="82.55" y="35.56" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="31" x="85.09" y="38.1" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="30" x="82.55" y="38.1" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="29" x="85.09" y="40.64" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="28" x="82.55" y="40.64" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="27" x="85.09" y="43.18" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="26" x="82.55" y="43.18" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="25" x="85.09" y="45.72" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="24" x="82.55" y="45.72" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="23" x="85.09" y="48.26" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="22" x="82.55" y="48.26" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="53" x="85.09" y="10.16" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="52" x="82.55" y="10.16" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="51" x="85.09" y="12.7" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="50" x="82.55" y="12.7" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="49" x="85.09" y="15.24" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="48" x="82.55" y="15.24" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="47" x="85.09" y="17.78" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="46" x="82.55" y="17.78" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="45" x="85.09" y="20.32" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="44" x="82.55" y="20.32" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="43" x="85.09" y="22.86" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="42" x="82.55" y="22.86" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="41" x="85.09" y="25.4" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="40" x="82.55" y="25.4" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="39" x="85.09" y="27.94" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="38" x="82.55" y="27.94" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="GND@2" x="82.55" y="7.62" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="GND@3" x="85.09" y="7.62" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="5V@1" x="82.55" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="5V@2" x="85.09" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="RESET" x="21.59" y="2.54" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="3.3V" x="24.13" y="2.54" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="5V@0" x="26.67" y="2.54" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="GND@0" x="29.21" y="2.54" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="GND@1" x="31.75" y="2.54" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="VIN" x="34.29" y="2.54" drill="1.1" diameter="1.778" rot="R90"/>
 <text x="52.451" y="47.752" size="1.4224" layer="49" font="vector" ratio="15" rot="R90">0</text>
 <text x="49.911" y="47.752" size="1.4224" layer="49" font="vector" ratio="15" rot="R90">1</text>
 <text x="47.371" y="47.752" size="1.4224" layer="49" font="vector" ratio="15" rot="R90">2</text>
@@ -905,8 +905,8 @@
 <hole x="2.54" y="2.54" drill="3.2"/>
 <hole x="78.74" y="50.8" drill="3.2"/>
 <hole x="85.09" y="2.54" drill="3.2"/>
-<pad name="IOREF" x="19.05" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="NC" x="16.51" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="IOREF" x="19.05" y="2.54" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="NC" x="16.51" y="2.54" drill="1.1" diameter="1.778" rot="R90"/>
 <rectangle x1="18.796" y1="2.286" x2="19.304" y2="2.794" layer="51"/>
 <rectangle x1="16.256" y1="2.286" x2="16.764" y2="2.794" layer="51"/>
 <wire x1="15.24" y1="3.175" x2="15.24" y2="1.905" width="0.2032" layer="21"/>
@@ -923,8 +923,8 @@
 <wire x1="19.685" y1="1.27" x2="18.415" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="17.145" y1="1.27" x2="15.875" y2="1.27" width="0.2032" layer="21"/>
 <text x="19.558" y="4.5974" size="1.016" layer="49" font="vector" ratio="15" rot="R90">IOREF</text>
-<pad name="SDA" x="9.906" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="SCL" x="7.366" y="50.8" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="SDA" x="9.906" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
+<pad name="SCL" x="7.366" y="50.8" drill="1.1" diameter="1.778" rot="R90"/>
 <rectangle x1="9.652" y1="50.546" x2="10.16" y2="51.054" layer="51"/>
 <rectangle x1="7.112" y1="50.546" x2="7.62" y2="51.054" layer="51"/>
 <wire x1="6.096" y1="51.435" x2="6.096" y2="50.165" width="0.2032" layer="21"/>
@@ -4252,12 +4252,12 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD811.pdf</descr
 <wire x1="13.875" y1="44.45" x2="15.875" y2="42.45" width="0.1524" layer="21" curve="-90"/>
 <wire x1="15.875" y1="42.45" x2="15.875" y2="2" width="0.1524" layer="21"/>
 <wire x1="15.875" y1="2" x2="13.875" y2="0" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-13.97" y="1.27" drill="1.1" shape="octagon" rot="R90"/>
-<pad name="2" x="-11.43" y="1.27" drill="1.1" shape="octagon" rot="R90"/>
-<pad name="3" x="-8.89" y="1.27" drill="1.1" shape="octagon" rot="R90"/>
-<pad name="4" x="-6.35" y="1.27" drill="1.1" shape="octagon" rot="R90"/>
-<pad name="5" x="-3.81" y="1.27" drill="1.1" shape="octagon" rot="R90"/>
-<pad name="6" x="-1.27" y="1.27" drill="1.1" shape="octagon" rot="R90"/>
+<pad name="1" x="-13.97" y="1.27" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="2" x="-11.43" y="1.27" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="3" x="-8.89" y="1.27" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="4" x="-6.35" y="1.27" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="5" x="-3.81" y="1.27" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="6" x="-1.27" y="1.27" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
 <text x="-15.875" y="-1.905" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-15.875" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-4.064" y1="1.016" x2="-3.556" y2="1.524" layer="51"/>
@@ -4266,12 +4266,12 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD811.pdf</descr
 <rectangle x1="-11.684" y1="1.016" x2="-11.176" y2="1.524" layer="51"/>
 <rectangle x1="-14.224" y1="1.016" x2="-13.716" y2="1.524" layer="51"/>
 <rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="51"/>
-<pad name="7" x="1.27" y="1.27" drill="1.1" shape="octagon" rot="R90"/>
-<pad name="8" x="3.81" y="1.27" drill="1.1" shape="octagon" rot="R90"/>
-<pad name="9" x="6.35" y="1.27" drill="1.1" shape="octagon" rot="R90"/>
-<pad name="10" x="8.89" y="1.27" drill="1.1" shape="octagon" rot="R90"/>
-<pad name="11" x="11.43" y="1.27" drill="1.1" shape="octagon" rot="R90"/>
-<pad name="12" x="13.97" y="1.27" drill="1.1" shape="octagon" rot="R90"/>
+<pad name="7" x="1.27" y="1.27" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="8" x="3.81" y="1.27" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="9" x="6.35" y="1.27" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="10" x="8.89" y="1.27" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="11" x="11.43" y="1.27" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="12" x="13.97" y="1.27" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
 <rectangle x1="11.176" y1="1.016" x2="11.684" y2="1.524" layer="51"/>
 <rectangle x1="8.636" y1="1.016" x2="9.144" y2="1.524" layer="51"/>
 <rectangle x1="6.096" y1="1.016" x2="6.604" y2="1.524" layer="51"/>
