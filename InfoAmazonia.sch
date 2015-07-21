@@ -4007,7 +4007,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="R7" library="InfoAmazonia" deviceset="R-EU_" device="R0603" value="30k"/>
 <part name="R9" library="InfoAmazonia" deviceset="R-EU_" device="R0603" value="75k"/>
 <part name="GND46" library="InfoAmazonia" deviceset="GND" device=""/>
-<part name="J1" library="InfoAmazonia" deviceset="BNC" device="PTH"/>
+<part name="J1" library="InfoAmazonia" deviceset="BNC" device="PTH" value="31-5431-10RFX"/>
 <part name="IC10" library="InfoAmazonia" deviceset="AMPOP_2" device="R" value="TL032C"/>
 <part name="GND51" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="P+6" library="InfoAmazonia" deviceset="+5V" device=""/>
@@ -4032,8 +4032,8 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="GND12" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="GND8" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="+VBAT2" library="InfoAmazonia" deviceset="+VBAT" device=""/>
-<part name="R4" library="InfoAmazonia" deviceset="R-EU_" device="R0603" value="100"/>
-<part name="R3" library="InfoAmazonia" deviceset="R-EU_" device="R0603" value="43"/>
+<part name="R4" library="InfoAmazonia" deviceset="R-EU_" device="R0603" value="220"/>
+<part name="R3" library="InfoAmazonia" deviceset="R-EU_" device="R0603" value="100"/>
 <part name="GND15" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="C5" library="InfoAmazonia" deviceset="CPOL-EU" device="UD6,3-5,8" value="47uF"/>
 <part name="C4" library="InfoAmazonia" deviceset="CPOL-EU" device="UD6,3-5,8" value="47uF"/>
@@ -4045,10 +4045,10 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="GND22" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="C2" library="InfoAmazonia" deviceset="CPOL-EU" device="SMC_B" value="47uF"/>
 <part name="C3" library="InfoAmazonia" deviceset="CPOL-EU" device="SMC_B" value="47uF"/>
-<part name="U3" library="InfoAmazonia" deviceset="USD-SOCKET" device="NEW"/>
+<part name="U3" library="InfoAmazonia" deviceset="USD-SOCKET" device="NEW" value="10100660686"/>
 <part name="+3V38" library="InfoAmazonia" deviceset="+3V3" device=""/>
 <part name="GND38" library="InfoAmazonia" deviceset="GND" device=""/>
-<part name="IC5" library="InfoAmazonia" deviceset="4050" device="D"/>
+<part name="IC5" library="InfoAmazonia" deviceset="4050" device="D" value="CD4050BD"/>
 <part name="+3V35" library="InfoAmazonia" deviceset="+3V3" device=""/>
 <part name="GND32" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="C16" library="InfoAmazonia" deviceset="C-EU" device="C0603" value="100nF"/>
@@ -4090,16 +4090,16 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="GND28" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="P+18" library="InfoAmazonia" deviceset="+5V" device=""/>
 <part name="P-5" library="InfoAmazonia" deviceset="-5V" device=""/>
-<part name="JP1" library="InfoAmazonia" deviceset="M04" device="JST-PTH-VERT" value="ANALOG"/>
+<part name="JP1" library="InfoAmazonia" deviceset="M04" device="JST-PTH-VERT" value="89400-0420"/>
 <part name="GND10" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="P+10" library="InfoAmazonia" deviceset="+5V" device=""/>
-<part name="JP3" library="InfoAmazonia" deviceset="M04" device="JST-PTH-VERT" value="I2C"/>
+<part name="JP3" library="InfoAmazonia" deviceset="M04" device="JST-PTH-VERT" value="89400-0420"/>
 <part name="GND20" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="P+16" library="InfoAmazonia" deviceset="+5V" device=""/>
-<part name="JP2" library="InfoAmazonia" deviceset="M04" device="JST-PTH-VERT" value="SERIAL"/>
+<part name="JP2" library="InfoAmazonia" deviceset="M04" device="JST-PTH-VERT" value="89400-0420"/>
 <part name="GND11" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="P+11" library="InfoAmazonia" deviceset="+5V" device=""/>
-<part name="JP4" library="InfoAmazonia" deviceset="M04" device="JST-PTH-VERT" value="PWM"/>
+<part name="JP4" library="InfoAmazonia" deviceset="M04" device="JST-PTH-VERT" value="89400-0420"/>
 <part name="GND21" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="P+17" library="InfoAmazonia" deviceset="+5V" device=""/>
 <part name="P+2" library="InfoAmazonia" deviceset="+12V" device=""/>
@@ -4125,18 +4125,18 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="P-9" library="InfoAmazonia" deviceset="-VPH" device=""/>
 <part name="P-16" library="InfoAmazonia" deviceset="-VPH" device=""/>
 <part name="MD1" library="InfoAmazonia" deviceset="INFO-AMAZONIA-MODULE" device="" value="INFO-AMAZONIA-MODULE"/>
-<part name="J2" library="InfoAmazonia" deviceset="BNC" device="PTH"/>
-<part name="J3" library="InfoAmazonia" deviceset="BNC" device="PTH"/>
-<part name="MD4" library="InfoAmazonia" deviceset="INFO-AMAZONIA-MODULE" device="" value=""/>
+<part name="J2" library="InfoAmazonia" deviceset="BNC" device="PTH" value="31-5431-10RFX"/>
+<part name="J3" library="InfoAmazonia" deviceset="BNC" device="PTH" value="31-5431-10RFX"/>
+<part name="MD4" library="InfoAmazonia" deviceset="INFO-AMAZONIA-MODULE" device="" value="INFO-AMAZONIA-MODULE"/>
 <part name="GND42" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="GND45" library="InfoAmazonia" deviceset="GND" device=""/>
-<part name="MD6" library="InfoAmazonia" deviceset="INFO-AMAZONIA-MODULE" device="" value=""/>
+<part name="MD6" library="InfoAmazonia" deviceset="INFO-AMAZONIA-MODULE" device="" value="INFO-AMAZONIA-MODULE"/>
 <part name="GND58" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="GND59" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="P+28" library="InfoAmazonia" deviceset="+VEC" device=""/>
 <part name="GND53" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="MD5" library="InfoAmazonia" deviceset="INFO-AMAZONIA-MODULE" device=""/>
-<part name="IC3" library="InfoAmazonia" deviceset="4051" device="D" value="74HC4051"/>
+<part name="IC3" library="InfoAmazonia" deviceset="4051" device="D" value="HEF4051BT"/>
 <part name="GND7" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="P+8" library="InfoAmazonia" deviceset="+5V" device=""/>
 <part name="GND13" library="InfoAmazonia" deviceset="GND" device=""/>
@@ -4147,19 +4147,19 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="R2" library="InfoAmazonia" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="P+5" library="InfoAmazonia" deviceset="+5V" device=""/>
 <part name="P+7" library="InfoAmazonia" deviceset="+5V" device=""/>
-<part name="IC6" library="InfoAmazonia" deviceset="4053" device="D"/>
+<part name="IC6" library="InfoAmazonia" deviceset="4053" device="D" value="74HC4053D"/>
 <part name="GND33" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="GND29" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="P+19" library="InfoAmazonia" deviceset="+5V" device=""/>
 <part name="P-6" library="InfoAmazonia" deviceset="-5V" device=""/>
 <part name="MD2" library="InfoAmazonia" deviceset="INFO-AMAZONIA-MODULE" device="" value="INFO-AMAZONIA-MODULE"/>
-<part name="IC7" library="InfoAmazonia" deviceset="4053" device="D"/>
+<part name="IC7" library="InfoAmazonia" deviceset="4053" device="D" value="74HC4053D"/>
 <part name="GND34" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="GND30" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="P+20" library="InfoAmazonia" deviceset="+5V" device=""/>
 <part name="P-7" library="InfoAmazonia" deviceset="-5V" device=""/>
 <part name="MD3" library="InfoAmazonia" deviceset="INFO-AMAZONIA-MODULE" device="" value="INFO-AMAZONIA-MODULE"/>
-<part name="IC8" library="InfoAmazonia" deviceset="4053" device="D"/>
+<part name="IC8" library="InfoAmazonia" deviceset="4053" device="D" value="74HC4053D"/>
 <part name="GND35" library="InfoAmazonia" deviceset="GND" device=""/>
 <part name="C15" library="InfoAmazonia" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="GND25" library="InfoAmazonia" deviceset="GND" device=""/>
@@ -4764,7 +4764,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </instance>
 <instance part="MD4" gate="G$1" x="279.4" y="-114.3" smashed="yes">
 <attribute name="NAME" x="276.86" y="-121.412" size="1.778" layer="95"/>
-<attribute name="VALUE" x="271.78" y="-121.92" size="1.778" layer="95"/>
 </instance>
 <instance part="GND42" gate="1" x="266.7" y="-121.92" smashed="yes">
 <attribute name="VALUE" x="264.16" y="-124.46" size="1.778" layer="96"/>
@@ -4774,7 +4773,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </instance>
 <instance part="MD6" gate="G$1" x="279.4" y="-40.64" smashed="yes">
 <attribute name="NAME" x="276.86" y="-47.752" size="1.778" layer="95"/>
-<attribute name="VALUE" x="271.78" y="-48.26" size="1.778" layer="95"/>
 </instance>
 <instance part="GND58" gate="1" x="266.7" y="-48.26" smashed="yes">
 <attribute name="VALUE" x="264.16" y="-50.8" size="1.778" layer="96"/>
