@@ -1,6 +1,4 @@
-# rede-hardware
-
-Mãe d'Água - Hardware
+# Mãe d'Água - Hardware
 
 An open hardware to monitor water quality in real time. The system will help infer physicochemical properties and variables that differentiates drinkable from contaminated water. Mãe d'Água is part of the project <a href="http://infoamazonia.org/projects/infoamazonia-network/">InfoAmazonia Network</a>.
 
